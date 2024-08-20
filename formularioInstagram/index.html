@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main-container">
+
+    <!-- imagen izquierda-->
+    <div class="image-container">
+      <!-- Usamos una ruta relativa para cargar la imagen desde la carpeta "assets" -->
+      <img src="assets/images/cel.png" alt="Imagen Lateral" class="side-image">
+    </div>
+
+    <!-- Contenedor del formulario -->
+    <div class="form-register">
+      <div class="form-container">
+        <!-- logo de Instagram -->
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram Logo" class="logo">
+
+        <!-- Formulario inicio de sesión -->
+        <form class="login-form">
+          <input type="text" placeholder="Teléfono, usuario o correo electrónico" required>
+          <input type="password" placeholder="Contraseña" required>
+
+          <!-- boton inicio de sesión -->
+          <button type="submit">Iniciar sesión</button>
+        </form>
+
+        <!-- lineas separadoras -->
+        <div class="separator">
+          <div class="line"></div>
+          <p>O</p>
+          <div class="line"></div>
+        </div>
+
+        <!--  Inicio de sesion con Facebook-->
+        <div class="social-login">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook" class="fb-logo">
+          <a href="https://es-la.facebook.com/">
+            Inicia sesión con Facebook
+          </a>         
+        </div>
+
+        <!-- enlace para cambiar contraseña -->
+        <a href="https://www.instagram.com/accounts/password/reset/" class="change-password">
+            ¿Olvidaste tu contraseña?
+        </a>
+      </div>
+
+       <!-- Contenedor para registro si no tienes cuenta -->
+      <div class="signup-container">
+        <p>¿No tienes una cuenta? <a href="https://www.instagram.com/accounts/emailsignup/">Regístrate</a></p>
+      </div>
+
+      <!-- pie del formulario -->
+      <div>
+        <p class="footer-text">Descarga la aplicación</p>
+        <img src="assets/images/piedepagina.png" alt="Pie del Formulario" class="footer-image">
+      </div>
+
+
+    </div>
+  </div>
+
+</body>
+</html>

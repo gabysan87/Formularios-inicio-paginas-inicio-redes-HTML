@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Tarjeta de inicio de sesión */
+  .login-card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    padding: 40px;
+  }
+  
+  /* parte izquierda (logo y título) */
+  .left-section {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .left-section .logo {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .left-section h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #202124;
+  }
+  
+  .left-section a {
+    color: #1a73e8;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  /* parte derecha (formulario) */
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form a {
+    color: #1a73e8;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+  
+  /* Párrafo de información adicional */
+  .paragraph {
+    font-size: 12px;
+    color: #5f6368;
+    margin-top: 40px;
+  }  
+  
+  .paragraph a {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-top: 2px;
+  }
+    
+  /*  formulario (Crear cuenta y botón) */
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px
+  }
+  
+  .create-account-link {
+    color: #1a73e8;
+    font-size: 14px;
+    text-decoration: none;
+  }
+   
+  .login-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .login-btn:hover {
+    background-color: #185abc;
+  }
+  

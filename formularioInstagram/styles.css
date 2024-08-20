@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* estilo para el contenedor principal */
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  /* estilo para el contenedor de la imagen izquierda */
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* estilos para la imagen izquierda */
+  .side-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*  estilo para el contenedor del formulario */
+  .form-register {
+    flex: 1;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+  }
+  
+/* Estilo para el contenedor del formulario */
+  .form-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    text-align: center;
+    width: 350px;
+  }
+  
+/* estilo del logo de Instagram */
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  /* estilo para los input */
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+  }
+  
+/* boton de iniciar sesión */
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* estilo para el contenedor de las lineas separadoras */
+  .separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /*estilo para las lineas separadoras */
+  .separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+  }
+  
+  /* estilos para espaciado a los lados del "O" */
+  .separator p {
+    margin: 0 10px;
+    color: #8e8e8e;
+    font-weight: bold;
+  }
+  
+/* estilo para el contenedor inicio de sesión */
+  .social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* estilo para el logo de Faceboock */
+  .fb-logo {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  /* estilos para el enlace Iniciar sesión con Faceboock */
+  .social-login a {
+    color: #385185;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* estilo para enlace cambiar contraseña */
+  .change-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  
+/* estilo para el contenedor del registro */
+  .signup-container {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* estilo para el enlace de registro de no tener cuenta */
+  .signup-container a {
+    color: #0095f6;
+    text-decoration: none;
+  }
+  
+  /* contenedor del pie del formulario */
+  .footer-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+/* texto del footer */
+  .footer-text {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* imagen del footer */
+  .footer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

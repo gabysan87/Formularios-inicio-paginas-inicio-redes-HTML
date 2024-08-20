@@ -1,0 +1,127 @@
+/* Reseteo básico de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos básicos del cuerpo */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    
+  }
+  
+  /* Grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+    
+  }
+  
+  /* contenedor de la imagen */
+  .cont-images {
+    text-align: center;
+  }
+  
+  /* Imagen izquierda */
+  .images-izq {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+  
+  /* Sección del formulario */
+  .form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+  }
+  
+  /* botón de inicio de sesión (azul) */
+  .login-btn {
+    padding: 14px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  .login-btn:hover {
+    background-color: #165ec9;
+  }
+  
+  /* Estilo del enlace de contraseña */
+  .login-form a {
+    color: #1877f2;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  /* Línea divisora */
+  .line-divider {
+    border-top: 1px solid #ccccd8;
+    margin: 20px 0;
+  }
+  
+  /* Boton de registro (verde)  */
+  .register-btn {
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 200px;
+    align-self: center;
+  }
+  
+  .register-btn:hover {
+    background-color: #36a420;
+  }
+  
+  /* pie de texto */
+  .create-page-section {
+    text-align: center;
+    font-size: 14px;
+    color: #606770;
+    margin-top: 20px; 
+  }
+
+  .create-page-section a {
+    text-decoration: none;
+    color: black;
+  }
