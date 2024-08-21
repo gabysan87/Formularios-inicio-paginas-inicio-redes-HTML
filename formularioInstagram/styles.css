@@ -7,39 +7,43 @@
   
   body {
     background-color: #fafafa;
+    margin: 0;
+    padding: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;  
   }
   
   /* estilo para el contenedor principal */
   .main-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
     max-width: 1000px;
     width: 100%;
+    margin: auto;
+    gap: 20px; /* Ajusta el espacio entre la imagen y el formulario */
+    padding: 0 200px;
   }
   
   /* estilo para el contenedor de la imagen izquierda */
   .image-container {
-    flex: 1;
+    flex: 1; /* Ajusta el ancho de la imagen */
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
   }
   
   /* estilos para la imagen izquierda */
   .side-image {
-    max-width: 100%;
-    height: auto;
+    width: 320px;
+    height: 500px;
   }
   
   /*  estilo para el contenedor del formulario */
   .form-register {
-    flex: 1;
+    flex: 1; /* Esta propiedad se usa en un elemento dentro de un contenedor con display: flex */
     display: grid;
-    gap: 10px;
+    gap: 2px;
     justify-items: center;
   }
   
@@ -49,26 +53,28 @@
     border: 1px solid #dbdbdb;
     padding: 40px;
     text-align: center;
-    width: 350px;
+    width: 300px;
+    height: 350px;
   }
   
 /* estilo del logo de Instagram */
   .logo {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: 2px;
   }
   
   /* estilo para los input */
   .login-form input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 8px 0;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
     background-color: #fafafa;
-    font-size: 12px;
+    font-size: 10px;
   }
   
-/* boton de iniciar sesión */
+/* boton de ingreso */
   button {
     width: 100%;
     padding: 10px;
@@ -77,7 +83,7 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 10px;
   }
   
   /* estilo para el contenedor de las lineas separadoras */
@@ -91,7 +97,7 @@
   /*estilo para las lineas separadoras */
   .separator .line {
     height: 1px;
-    width: 40%;
+    width: 50%;
     background-color: #dbdbdb;
   }
   
@@ -113,13 +119,16 @@
   .fb-logo {
     width: 20px;
     margin-right: 10px;
+    margin-bottom: 20px;
   }
   
   /* estilos para el enlace Iniciar sesión con Faceboock */
   .social-login a {
     color: #385185;
     font-weight: bold;
+    font-size: small;
     text-decoration: none;
+    margin-bottom: 20px;
   }
   
   /* estilo para enlace cambiar contraseña */
@@ -135,7 +144,9 @@
     border: 1px solid #dbdbdb;
     padding: 20px;
     text-align: center;
-    width: 350px;
+    width: 300px;
+    font-size: small;
+    margin-top: 10px;
   }
   
   /* estilo para el enlace de registro de no tener cuenta */
@@ -147,12 +158,12 @@
   /* contenedor del pie del formulario */
   .footer-content {
     text-align: center;
-    margin-top: 20px;
   }
   
 /* texto del footer */
   .footer-text {
-    margin-bottom: 15px;
+     margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 14px;
     color: #333;
     text-align: center;
@@ -164,4 +175,29 @@
     height: auto;
     border-radius: 5px;
   }
-  
+  /* Footer */
+.footer-link {
+  display: flex;
+  justify-content: center; /* Centra los enlaces horizontalmente */
+  flex-wrap: wrap;
+  width: 100%; 
+  margin-top: 20px; 
+  padding: 10px 0;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.footer-link a {
+  margin: 5px 10px; /* Espacio entre los enlaces */
+  text-decoration: none;
+  color: #8e8e8e;
+}
+
+/* Texto de derechos de autor e idioma */
+.footer-copyright {
+  text-align: center;
+  width: 100%; 
+  font-size: 12px;
+  color: #8e8e8e;
+  margin-top: 10px;
+}
